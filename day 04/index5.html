@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul>li{
+            color: red;
+        }
+        div h1{
+            color: aqua;
+        }
+        /* grouping selector */
+        h2,p{
+            color: blueviolet;
+        }
+        a{
+            transition: all 200ms ease-in 100ms;
+        }
+        a:hover{
+            color: red;
+            font-size: 30px;
+        }
+        a:active{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+    </ul>
+    <div>
+        <h1>hello</h1>
+    </div>
+    <div id="wrapper">
+        <h2>hello</h2>
+        <p>world</p>
+    </div>
+    <a href="https://www.google.com">click</a>
+</body>
+</html>

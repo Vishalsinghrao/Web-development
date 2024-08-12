@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo tag</title>
+    <style>
+        ::selection{
+            color: aquamarine;
+            background-color: blueviolet;
+        }
+        P::first-line{
+            color: blue;
+        }
+        h1{
+            text-align: center;
+        }
+        h1::before{
+            content: '😎';
+        }
+        h1::after{
+            content: '🫡';
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio molestias aspernatur nisi temporibus tempora! Ipsum, repellat deserunt voluptatem ipsa quod nesciunt similique sunt animi enim iste delectus officiis vero totam culpa eius temporibus quia fugiat fugit rerum modi facilis blanditiis. Dicta dolorum aliquam dolor.</p>
+    <H1>TECHNO</H1>
+</body>
+</html>
